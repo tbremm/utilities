@@ -1,10 +1,11 @@
-import os, sys, re
-
-# Strip junk from beat saber custom level folders
+import os
+import re
 
 
 def main():
-    # Replace this with the parent directory for whereever your beatsaber custom track folders are
+    # Strips junk from beat saber custom level folders
+
+    # Replace this with the parent directory for where your beatsaber custom track folders are
     basedir = 'D:\\SteamLibrary\\steamapps\\common\\Beat Saber\\Beat Saber_Data\\CustomLevels'
     # basedir = 'A:\\Code_Dev\\My Utilities\\test'
 
@@ -26,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
